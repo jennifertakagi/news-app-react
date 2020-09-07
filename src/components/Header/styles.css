@@ -1,0 +1,98 @@
+#page-header {
+  border-bottom: 1px solid var(--gray-light);
+}
+
+#page-header .top-bar-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0.1rem;
+}
+
+#page-header .top-bar-container > img {
+  cursor: pointer;
+}
+
+#page-header .logo-box {
+  margin: 0 auto;
+}
+
+#page-header #menu-section {
+  display: none;
+}
+
+#page-header #menu-section.show-menu {
+  display: block;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 6rem;
+  background-color: var(--white);
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#page-header .menu-container li {
+  list-style: none;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 3rem;
+}
+
+#page-header .menu-container li:hover, #page-header .menu-container li:focus {
+  outline: none;
+  font-weight: 700;
+}
+
+#page-header .menu-container a {
+  text-decoration: none;
+}
+
+#page-header .menu-container a li.login {
+  color: var(--blue-regular);
+}
+
+@media (min-width: 750px) {
+  #page-header #menu-section.show-menu {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1170px) {
+  #page-header .hidden {
+    display: none;
+  }
+
+  #page-header .logo-box.margin-0 {
+    margin: 0;
+  }
+
+  #page-header #menu-section {
+    display: block;
+    width: 100%;
+  }
+  
+  #page-header .menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    float: right;
+  }
+}

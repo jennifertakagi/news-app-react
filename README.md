@@ -4,7 +4,7 @@
 
 # News App
 
-> Login in the app, choose your interest and check some news: http://news-app-demo-react.herokuapp.com/ :)
+> Login in the app, choose your interest and check some news: https://news-app-react-im9asv8qg.vercel.app/ :)
 
 [![Author](https://img.shields.io/badge/author-jennifertakagi-ff9000?style=flat-square)](https://github.com/jennifertakagi)
 [![Languages](https://img.shields.io/github/languages/count/jennifertakagi/news-app-react?color=%23ff9000&style=flat-square)](#)

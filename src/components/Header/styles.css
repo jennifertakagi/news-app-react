@@ -88,6 +88,10 @@
     display: block;
     width: 100%;
   }
+
+  #page-header #menu-section.hidden {
+    display: none;
+  }
   
   #page-header .menu-container {
     display: flex;

@@ -36,7 +36,7 @@ function Header({ categories = [], userLogged = false }) {
         </div>
           <nav
             id="menu-section"
-            className={ showMenu ? 'show-menu' : '' }
+            className={ `${showMenu ? 'show-menu' : '' } ${!hasCategories ? 'hidden' : '' }`}
             aria-label="mainmenulabel"
           >
           <ul className="menu-container">

@@ -1,0 +1,62 @@
+.category-interest {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  list-style: none;
+  border-radius: 100px;
+  width: 100px;
+  height: 28px;
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem auto 0;
+  padding: 0.5rem;
+}
+
+.category-interest.politics {
+  border: 1px solid var(--red-regular);
+}
+
+.category-interest.politics.active, .category-interest.politics:hover,
+.category-interest.politics:focus {
+  color: var(--white);
+  background: var(--red-regular);
+}
+
+.category-interest.business {
+  border: 1px solid var(--purple-light);
+}
+
+.category-interest.business.active, .category-interest.business:hover ,
+.category-interest.business:focus {
+  color: var(--white);
+  background: var(--purple-light);
+}
+
+.category-interest.tech {
+  border: 1px solid var(--blue-dark);
+}
+
+.category-interest.tech.active, .category-interest.tech:hover,
+.category-interest.tech:focus {
+  color: var(--white);
+  background: var(--blue-dark);
+}
+
+.category-interest.science {
+  border: 1px solid var(--green-light);
+}
+
+.category-interest.science.active, .category-interest.science:hover,
+.category-interest.science:focus  {
+  color: var(--white);
+  background: var(--green-light);
+}
+
+.category-interest.sports {
+  border: 1px solid var(--yellow-dark);
+}
+
+.category-interest.sports.active, .category-interest.sports:hover,
+.category-interest.sports:focus {
+  color: var(--white);
+  background: var(--yellow-dark);
+}

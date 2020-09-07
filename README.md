@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left">
+   <img src="docs/logo.png" width="100"/>
+</p>
 
-## Available Scripts
+# News App
 
-In the project directory, you can run:
+> Login in the app, choose your interest and check some news: http://news-app-demo-react.herokuapp.com/ :)
 
-### `yarn start`
+[![Author](https://img.shields.io/badge/author-jennifertakagi-ff9000?style=flat-square)](https://github.com/jennifertakagi)
+[![Languages](https://img.shields.io/github/languages/count/jennifertakagi/news-app-react?color=%23ff9000&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/jennifertakagi/news-app-react?color=ff9000&style=flat-square)](https://github.com/jennifertakagi/news-app-react)
+[![Forks](https://img.shields.io/github/forks/jennifertakagi/news-app-react?color=%23ff9000&style=flat-square)](https://github.com/jennifertakagi/news-app-reactnetwork/members)
+[![Contributors](https://img.shields.io/github/contributors/jennifertakagi/news-app-react?color=ff9000&style=flat-square)](https://github.com/jennifertakagi/news-app-react/graphs/contributors)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# :pushpin: Table of Contents
 
-### `yarn test`
+* [Features](#rocket-features)
+* [UI Documentation](#framed_picture-ui-documentation)
+* [Installation](#construction_worker-installation)
+* [Getting Started](#runner-getting-started)
+* [FAQ](#postbox-faq)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [License](#closed_book-license)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br />
 
-### `yarn build`
+# :rocket: Features
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Login.
+* Choose your interests.
+* Check the news on desktop and mobile device.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# :framed_picture: UI Documentation
+This project has a UI Documentation of reusable components, allowing to test them individually.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="left">
+   <img src="docs/news-app.gif" />
+</p>
 
-### `yarn eject`
+# :construction_worker: Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**You need to install [Node.js](https://nodejs.org/en/download/) and [NPM](https://www.npmjs.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```git clone https://github.com/jennifertakagi/news-app-react.git```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```git clone git@github.com:jennifertakagi/news-app-react.git``
 
-## Learn More
+**Install dependencies**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```npm install```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :runner: Getting Started
 
-### Code Splitting
+Run the following command in order to start the application in a development environment:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```npm start```
 
-### Analyzing the Bundle Size
+# :postbox: Faq
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+**Question:** What are the technologies used in this project?
 
-### Making a Progressive Web App
+**Answer:** The technologies used in this project are [React](https://pt-br.reactjs.org/).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# :bug: Issues
 
-### Advanced Configuration
+Feel free to **file a new issue** with a respective title and description on the [News App](https://github.com/jennifertakagi/news-app-react/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/jennifertakagi/news-app-react/blob/master/CONTRIBUTING.md) to find out about the coding standards.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+# :tada: Contributing
 
-### Deployment
+Check out the [contributing](https://github.com/jennifertakagi/news-app-react/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+# :closed_book: License
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Released in 2020.
+This project is under the [MIT license](https://github.com/jennifertakagi/news-app-react/master/LICENSE).

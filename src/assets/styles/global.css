@@ -1,0 +1,76 @@
+:root {
+  --color-text-title: #000000;
+  --color-text-complement: #808080;
+  --color-text-base: #686868;
+  --color-border: #E4E4E4;
+
+  --blue-dark: #4A90E2;
+  --blue-regular: #4990E2;
+  --blue-light: #5E9BE2;
+  --gray-dark: #3E433E;
+  --gray-light: #979797;
+  --gray-lighter: #BFBFBF;
+  --green-light: #7CBB37;
+  --red-regular: #D0021B;
+  --purple-light: #BD10E0;
+  --yellow-dark: #F5A623;
+  --white: #FFFFFF;
+  
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: var(--white);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font: 500 1.6rem Lato;
+  color: var(--color-text-base);
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+}
+
+.politics {
+  color: var(--red-regular);
+}
+
+.business {
+  color: var(--purple-light);
+}
+
+.tech {
+  color: var(--blue-dark);
+}
+
+.science {
+  color: var(--green-light);
+}
+
+.sports {
+  color: var(--yellow-dark);
+}
+
+@media (min-width: 750px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
